@@ -1,7 +1,8 @@
 body{
     font-size: 15px;
     line-height: 1.52;
-    color: #717f86;
+    background-color: #ec9f95;
+    color: #080808;
     font-family: 'Open',sans-serif;
     font-weight: 400;
     overflow-x: hidden;
@@ -41,7 +42,7 @@ body{
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #ff5821;
+    color: #ffffff;
 }
 
 .menu-restaurant .menu-line{
