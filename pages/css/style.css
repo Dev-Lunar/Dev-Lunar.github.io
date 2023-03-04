@@ -42,10 +42,11 @@ body {
     color: #ffffff;
 }
 
-.menu-restaurant .menu-line {
+.menu-restaurant .menu-line{
     position: absolute;
-    center: 80%;
-    transform: translateX(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     bottom: 6px;
     border-bottom: 1px dotted rgba(0,0,0,3);
     margin-left: .6rem;
