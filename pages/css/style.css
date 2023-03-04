@@ -44,8 +44,8 @@ body {
 
 .menu-restaurant .menu-line{
     position: absolute;
-    left: 5px;
-    right: 5px;
+    left: 0px;
+    right: 10px;
     margin: 0 auto;
     bottom: 6px;
     border-bottom: 1px dotted rgba(0,0,0,3);
