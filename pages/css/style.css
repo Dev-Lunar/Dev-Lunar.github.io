@@ -1,4 +1,4 @@
-body{
+body {
     font-size: 15px;
     line-height: 1.52;
     background-color: #ec9f95;
@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
 }
 .section-padding{
-    padding: 60px 0px;
+    padding: 0px;
 }
 .marb-35{
     margin-bottom: 35px;
