@@ -7,16 +7,16 @@ body {
     font-weight: 400;
     overflow-x: hidden;
 }
-.marb-35{
+.marb-35 {
     margin-bottom: 35px;
 }
-.header-h{
+.header-h {
     font-size: 35px;
     color: #FFB03B;
     font-family: 'Satisfy',sans-serif;
     font-weight: 300;
 }
-.header-p{
+.header-p {
     color: #9699a6;
     font-size: 16px;
 }
@@ -28,13 +28,13 @@ body {
     letter-spacing: 1px;
     margin-bottom: 40px;
 }
-.menu-restaurant{
+.menu-restaurant {
     width: 100%;
     float: left;
     padding: 15px;
-    position: center;
+    position: relative;
 }
-.menu-restaurant .menu-title{
+.menu-restaurant .menu-title {
     float: left;
     font-family: Montserrat,arial;
     text-transform: uppercase;
@@ -42,15 +42,17 @@ body {
     color: #ffffff;
 }
 
-.menu-restaurant .menu-line{
-    position: center;
+.menu-restaurant .menu-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 6px;
     border-bottom: 1px dotted rgba(0,0,0,3);
     margin-left: .6rem;
     margin-right: .6rem;
 }
 
-.menu-restaurant .menu-price{
+.menu-restaurant .menu-price {
     font-weight: 600;
     position: absolute;
     right: 5%;
